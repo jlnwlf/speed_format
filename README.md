@@ -1,5 +1,8 @@
 # speed_format: Bit rate for humans
 
+[![Build Status](https://travis-ci.org/julienwolflisberg/speed_format.svg?branch=master)](https://travis-ci.org/julienwolflisberg/speed_format)
+[![Coverage Status](https://coveralls.io/repos/github/julienwolflisberg/speed_format/badge.svg?branch=master)](https://coveralls.io/github/julienwolflisberg/speed_format?branch=master)
+
 - 💎 (MRI/JRuby) >= 1.9
 - Pure 💎, no dependencies.
 
