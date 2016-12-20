@@ -11,13 +11,6 @@
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU General Public License for more details.
 
-begin
-  require 'coveralls'
-  Coveralls.wear!
-rescue LoadError
-  # Do nothing, coverage is not found... too bad.
-end
-
 require(File.expand_path('../lib/speed_format', File.dirname(__FILE__)))
 require "test/unit"
 
