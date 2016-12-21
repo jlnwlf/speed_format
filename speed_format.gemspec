@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name                  = 'speed_format'
-  s.version               = '0.0.1'
+  s.version               = '0.0.2'
   s.date                  = '2016-12-20'
   s.summary               = "Bit rate for humans"
   s.description           = "Format various bit rate to human readable and more convenient-sized digits and prefixes"
