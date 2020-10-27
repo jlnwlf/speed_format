@@ -21,7 +21,7 @@ class SpeedFormat
       if not @@units.include?(unit)
         raise ArgumentError, "Not a valid prefix"
       end
-      bps = BigDecimal.new(bps.to_s).abs
+      bps = BigDecimal(bps.to_s).abs
       if bytes == :bytes
         bps /= 8
       end
